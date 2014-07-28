@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(0, '/home/halcyon/crypto/anon/opensecrets/FEC/watchdog/vendor/python-clientform')
 import web
 from zip2rep import zip2dist
 from settings import db

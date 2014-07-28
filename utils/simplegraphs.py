@@ -1,4 +1,5 @@
-import Image, ImageDraw, StringIO
+from PIL import Image, ImageDraw
+import StringIO
 
 def sparkline(points, point=None, height=15*2, width=40*2, bubble=2*2, linewidth=1.5*2, margin=5*2, scalefactor=5):
     margin *= scalefactor

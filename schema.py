@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(0, './vendor')
 import simplejson as json
 import web
 import smartersql as sql

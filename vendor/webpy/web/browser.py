@@ -1,6 +1,8 @@
 """Browser to test web applications.
 (from web.py)
 """
+import sys
+sys.path.insert(0, '/home/halcyon/crypto/anon/opensecrets/FEC/watchdog/vendor/python-clientform')
 from utils import re_compile
 from net import htmlunquote
 
